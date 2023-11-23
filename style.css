@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.bg-body-tertiary{
+    background-color:rgb(16, 141, 16)!important ;
+    border: white 2px solid;
+    border-radius: 20px;
+}
+.navbar{
+    box-shadow: 0px 4px 25px rgb(16, 141, 26);
+    margin-inline: 25px;
+}
+h1{
+    color: white;
+    margin-bottom: 2.5% ;
+}
+
+.card{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.list-group-item{
+    padding-left: 0%;
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+h5, ul li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h5:hover{
+    overflow: visible;
+    white-space: wrap;
+}
+ul li:hover{
+    overflow: visible;
+    white-space: wrap;
+}
+#due .card-body, #due small{
+    text-shadow: 0px 0px 3px white;
+}
+#due ul{
+    height: 35px;
+    width: max-content;
+    transition: 0.35s;
+}
+#due ul:hover{
+    height: 480px;
+}
+
+.card-body{
+    padding-left: 0%;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px grey;
+    scale: 102%;
+    cursor: pointer;
+}
+
+img{
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px whitesmoke;
+}
+.branoPref{
+    margin-block: 15%;
+}
+.card-text .text-body-secondary{
+    color: white!important;
+}
+#due{
+margin-block: 5%;
+}
+#uno{
+    margin-top: 7.5%;
+    }
